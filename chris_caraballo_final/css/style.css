@@ -1,0 +1,330 @@
+*{
+	margin: auto;
+}
+
+
+body{
+	
+	background-repeat: repeat-x;
+	background-size: 50%;
+	background-position: left;
+	animation: fade 1s ease-in;
+
+}
+
+#topdiv{
+	
+	height: 120px;
+	width: auto;
+	animation: fade .8s ease-in;
+}
+
+@keyframes fade{
+	0% {opacity:0}
+
+	100% {opacity:1}
+
+}
+
+
+
+#navtop{
+	text-align: left;
+	word-spacing: 300px;
+	padding-left: 150px;
+	border-bottom: 1px solid rgb(0,110,225);
+	height: 50px;
+	padding-top: 100px;
+	font-family: quicksand;
+  font-weight: bold;
+  font-size: 20px;
+	}
+
+#navtop:hover{
+
+}	
+
+#navpic{
+	position: absolute;
+	margin-left:40px;
+}	
+
+
+#middiv{
+	
+	height: 520px;
+	width: auto;
+}
+
+#bottomdiv{
+	
+	height: 150px;
+	width: auto;
+	text-align: right;
+	padding-right: 400px;
+	
+}
+
+h1{
+	text-align: center;
+	color:rgb(0,153,227);
+	
+	padding-top: 100px;
+	font-family: quicksand;
+	font-weight: bold;
+	font-size: 50px;
+	text-shadow: -3px 2px black;	
+}
+
+h2{
+
+}
+
+h3{
+  
+}
+
+p{
+	height: 300px;
+	color:black;
+	padding-top: 50px;
+	padding-left: 40px;
+	width: 500px;
+	font-weight: bolder;
+	font-size: 22px;
+	font-family:  quicksand;
+	text-shadow: 2px 2px white;
+}
+
+#bottomparagraph{
+	height: 300px;
+	padding-top: 100px;
+	width: 500px;
+}
+
+#contact-div{
+  display: inline-flex;
+
+	margin-left: 450px;
+}
+
+
+#locationcontainer{
+	display: inline-flex;
+	padding-top: 10px;
+	margin-left: 400px;
+}
+
+#locationparagraph{
+	height: 300px;
+	width: 200px;
+	padding-left: 20px;
+	margin-top: 221px;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+
+
+a:link {
+    color:rgb(0,153,227);
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+   color:rgb(0,153,227);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color:black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+   color:rgb(0,153,227);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+#contactpara{
+	height: 300px;
+	padding-left: 40px;
+	font-size:20px;
+	width: 200px;
+	color: black;
+	list-style: none;
+	padding-top: 80px;
+	letter-spacing: 3px;
+}
+
+table{
+	
+	height: 500px;
+	width: 100px;
+}
+
+td{
+	
+
+}
+
+#locationbox{
+	
+	border: 5px solid rgb(0,153,227);
+}
+
+img{
+  border-radius: 50px;
+  height: 325px;
+  width: 475px;
+}
+
+
+.modal {
+    display: none; 
+    position: absolute;   
+    width: 30%;
+    height: 30%;
+
+    
+}
+
+.close{
+	color:white;
+ 	font-size: 30px;
+ 	cursor: pointer;
+
+}
+
+#signin{
+	padding-top: 9%;
+	padding-left: 25%;
+}
+
+
+.modal-content {
+    background-color: rgba(0,0,0,0.6); 
+   margin-left: 35%;
+   margin-top: 20%;
+   height: 80%;
+   width: 100%;
+   }
+
+button{
+	outline: none;
+	border: 5px rgb(0,153,227);
+	cursor: pointer;
+	font-size: 15px;
+	}
+
+#modalhead{
+	padding: 0;
+	cursor: pointer;
+
+}
+
+form{
+	padding-left: 30%;
+	color:white;
+	font-weight: bold;
+}
+
+input[type="submit"]{
+	padding-right: 40px;
+	
+	}
+
+li{
+	list-style: none;
+}
+
+
+.hours{
+	list-style: none;
+  padding-left: 200px;
+  text-decoration: underline;
+	font-weight: bold;
+}
+
+.floors{
+	padding-left: 140px;
+	
+}
+
+.company{
+	padding-left: 100px;
+	text-decoration: underline;
+}
+
+#dub{
+	padding-left: 145px;
+	text-decoration: underline;
+
+}
+
+#pov{
+	padding-left: 110px;
+	text-decoration: underline;
+}
+
+#pops{
+	padding-left: 130px;
+	text-decoration: underline;
+}
+
+#melle{
+	padding-left: 120px;
+	text-decoration: underline;
+
+}
+
+#wdipedia{
+  margin-left: 500px;
+	text-decoration: underline;
+}
+
+#vending{
+	padding-left: 200px;
+	text-decoration: underline;
+
+}
+
+#sfoglini{
+	padding-left: 90px;
+	text-decoration: underline;
+
+}
+
+.buttons
+{
+	height: 200px;
+	width: 200px;
+	font-size: 150px;
+	background-color: black;
+	color:white;
+	outline: none;
+}	
+
+.myslides
+{
+	display:none;
+}
+
+.slidediv{
+	margin-left: 26%;
+	margin-top: 2%;
+
+}
+
+#google{
+	height: 50%;
+	width: 50%;
+	padding-left: 20%;
+}
+
